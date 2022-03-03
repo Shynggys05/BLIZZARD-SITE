@@ -1,0 +1,269 @@
+body{background-color:#002650;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;}
+
+.menu, .kartinki, .download{height:200px;
+              /*margin:5px 0px; */
+                border:1px black solid;}
+
+.content{width:1200px;
+    margin:0 auto;
+    /*border:1px dashed white;*/
+    height:inherit;
+    }
+
+*{ margin:0px;
+  padding:0px;}
+
+.eto-menu{ 
+	margin-top:0px;
+	background-color:#0b0d12;
+    height:60px;
+    
+    }
+.logotip img{width:64px; display:inline-block;}
+
+.eto-menu a{color:#fffc; text-decoration:none; margin-right:30px;}
+.eto-menu a:hover{color:white;}
+
+.logotip{width:80%; position:relative; top:15px;}
+.osnov-menu a{text-transform:uppercase; }
+a.strelka:after{content:'\02EF'; bottom:8px; font-size:40px; position:relative;}
+.osnov-menu div, .menu-right div, .logotip, .osnov-menu, .menu-right{display:inline-block;} 
+
+
+.logo, .osnov-menu, .menu-right{display:inline-block;}
+
+
+
+.osnov-menu{width:64%;position:relative; bottom:15px; padding-top:15px;}
+.menu-right{bottom:15px; position:relative;}
+
+
+.logotip{float:left; width:78px; }
+
+
+
+
+
+
+
+
+
+.kartinki{
+  background-image:url(https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/blt7bcb2291026d0dde/6025e2a8415d5f4e80324945/D2R_2021_Blizzard.comDesktop_2500x514_MB01.png);
+  height:500px;
+  background-position-x:center;
+  }
+
+.download, .kartinki, .game, .vakanciya{
+  background-position-x:center;
+  }
+
+.game{
+  background-image:url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
+  background-repeat:no-repeat;
+  padding:30px 0px;
+  }
+
+.download{
+  background-image:url(https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/bltc2ad99dbedeb258e/5fb7ee280100b746db953f4e/DesktopBG_Image.webp?auto=webp&format=pjpg);
+  height:350px;
+  padding:20px 0px;
+  }
+  
+a h2{
+  text-transform:uppercase;
+  font-size:68px;
+  }
+
+.kartinki a{text-decoration:none;
+      color:white;}
+img.diablo{background-size:100%;}
+
+.but{
+  background-color: #006fb2;
+    border: solid 1px #00aeff;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  padding: 10px 50px;
+    text-align: center;
+  width:220px;
+  margin-top:24px;
+}
+.k-1{margin-bottom:24px;}
+
+.sl{padding:56px;}
+
+.zagolovok-igry{font-size:44px;
+        color:white;
+        float:left;
+        width:34%;
+        }
+
+.vse-igry{width:100%;
+    text-align:right;
+    padding-top:20px;
+    }
+
+.vse-igry a{color:#00aeff;
+      text-decoration:none;
+      
+      }
+
+.vse-igry a:hover, .vse-igry a:focus{color:white; text-shadow:10px 5px 10px white;}
+
+.clear{clear:both;}
+
+.game-src a img:hover{box-shadow:0px 0px 14px 4px lime;
+  width:230px;
+  height:330px;
+  margin:0;
+}
+
+.game-src img{width:220px;
+      margin: 8px 8px;
+      height:320px;}
+      
+.game-src{text-align:center;}
+
+.down-left h2{color:white;
+       font-size:44px;}
+        
+.down-left{color:#fffc;
+      font-size:150%;
+      }
+      
+.down-right img{
+        width:500px;}
+
+.down-left p{margin:8px 0px;}
+
+a.down{ color:white;
+    text-decoration:none;
+    }
+
+a.down-2{
+    text-decoration:none;}
+    
+.down-left p i{margin-right:12px;
+         color:#00aeff;
+         margin-top:10px;}
+
+p.user:before{content:'\f0c0'; font-family: "Font Awesome 5 Free"; font-weight:900; color:#00aeff; margin-right:6px;}
+
+
+.down-2 .but{color:#00aeff; background:none; width:135px;}
+
+a.down-2{text-decoration:none;}
+
+.down-2 .but:hover{background-color:#007bc6;
+           border:solid 1px #79d4ff;
+           color:#fff;}
+
+.down-left .but{display:inline-block;}
+
+
+.down-left p:last-child{font-size:16px;}
+
+.down-left a:last-child{color:#00aeff; }
+
+.down-left a:last-child:hover{color:#ffffff;}
+
+.download .down-left, .download .down-right{display:inline-block; margin-top:10px; position:relative; z-index:2; }
+
+.logotip svg{height:100px; }
+
+/* Вакансии */
+.vakanciya{background-image:url(https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/blt69459fd45cf9dde4/5f2dd6b88ea4aa55f2329d53/careers-5.webp?auto=webp&format=pjpg);
+background-size:100%;
+  height:370px;
+  padding:20px 0px;
+  }
+
+
+
+.vakanciya-1 h2{color:white;
+       font-size:44px;
+       }
+.vakanciya-1 p{color:#fffc;
+      font-size:150%;
+      margin-top:10px;}
+
+.down-3 .but{width:142px; color:white;}
+
+a.down-3{text-decoration:none;}
+
+.content .vakanciya-1{margin-top:105px;}
+
+/* Вакансии */
+
+
+  
+
+
+
+
+.footer{height:350px;
+  padding:20px 0px;
+  font-family:Helvetica, Arial, sans-serif;
+  }
+
+
+.footer-1 a{text-decoration:none; display: block; text-align:center; }
+.footer-1 a{font-family: "Font Awesome 5 Free"; font-weight:900; color:rgba(255, 255, 255, 0.7); }
+.footer-1 a:before{content:'\f57c'; color:#00aeff; margin-right:10px;}
+.footer-1 a:after{content:'\f0dc'; }
+.footer-1 a:hover{color:#fff;}
+.footer-2 img{width:120px; display: block; margin:0 auto; padding:20px; }
+
+
+.footer-3{text-align:center; padding-top:20px;}
+.footer-3 a div{ color:rgba(255, 255, 255, 0.7);}
+.footer-3 a{text-decoration:none;}
+.footer-3 div{display: inline; margin:0px;}
+
+.footer-3 div:after{content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px 10px;
+    }
+.footer-3 a div{text-transform:uppercase;}
+.footer-3 div:hover{color:#fff;}
+.footer-3 a div:last-child:after {display: none;}
+
+.footer-4 {text-align:center; color:rgba(255, 255, 255, 0.5);margin-top:30px; }
+.footer-4 a{text-decoration:none;color:#009dff; }
+
+
+
+
+.footer-5 {text-align:center; color:rgba(255, 255, 255, 0.5);}
+.footer-5 { margin-top:30px; font-size:13px;}
+
+.fotr a{text-decoration:none;}
+.fotr a span{font-weight:bold; color:rgba(255, 255, 255, 0.7);}
+.fotr a span:hover{color:#fff;}
+.fotr {text-align:center; font-size:13px; color:rgba(255, 255, 255, 0.5)}
+
+
+
+.footer-6{ text-align:center;}
+.footer-6 div{color:rgba(255, 255, 255, 0.5);font-weight:bold; display:inline; font-size:12px; }
+.footer-6 div:hover{color:#fff;}
+.footer-6 div:after{content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin: 0px 10px;
+    }
+
+.footer-6 a{text-decoration:none;}
+
+
+.footer-6 a div:last-child:after {display: none;}
+
+.fone svg{width:314px;position:relative;bottom: 298px;left:41%;z-index:1; opacity:.3;}
